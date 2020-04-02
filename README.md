@@ -9,7 +9,7 @@ This is a RESTful API Project
 
 # Project Structure
 - server.js : Responsible for starting the server.
-- app.js : Configure everything that has to do with Express application. 
+- app.js : rest controller 
 - model: Used to stored response model
 - teacherSystemDataSource: Handle the database request send back the response
 - test: Unit test
@@ -20,6 +20,7 @@ This is a RESTful API Project
    user: "root",
    password: "root",
    database: "teacher_system"
-2. Run all the SQL file inside the scripts folder
+2. Default your database and run SQL file inside the scripts folder
 3. open command line
-4. type "npm start" and enter
+4. type "npm install" and enter
+5. type "npm start" and enter

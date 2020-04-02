@@ -1,4 +1,4 @@
-CREATE DATABASE `teacher_system`;
+
 CREATE TABLE `student` (
   `email` varchar(255) NOT NULL,
   `status` tinyint(1) NOT NULL DEFAULT '0',
