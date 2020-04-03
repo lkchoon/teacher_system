@@ -35,7 +35,6 @@ module.exports = function(app, teacherSystemDataSource) {
             .catch(err => res.status(500).json(new ErrorResponse(err.message)));
     });
     app.post("/api/suspend", (req, res, next) => {
-        console.log("here:"+req.query.id);
         if (!req.body.student) {
             res.header("Content-Type", "application/json").status(400).json(new ErrorResponse("Student email field cannot be empty"));
             return;
